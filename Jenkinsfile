@@ -1,10 +1,14 @@
 pipeline {
     agent any
-
     stages {
         stage('Build') {
             steps {
-                echo 'Hello world'
+                echo 'Hello Nesta~ It's Jenkins pipeline world!'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'The Nesta's Jenkins Pipeline is workding :)'
             }
         }
     }
